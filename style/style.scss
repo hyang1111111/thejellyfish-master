@@ -32,8 +32,17 @@ body {
 .topad__container {
   display: flex;
   justify-content: center;
+  margin-block: 40px;
   img {
     width: 800px;
+    height: auto;
+  }
+}
+
+.info__section {
+  padding: 3.75rem;
+  img {
+    margin-block: 60px;
   }
 }
 
@@ -64,6 +73,15 @@ body {
 a {
   text-decoration: none;
   color: rgb(245, 245, 245);
+}
+
+.info__section {
+  display: inline;
+  justify-content: center;
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 input {
