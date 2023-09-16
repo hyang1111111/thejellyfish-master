@@ -49,20 +49,25 @@ body {
 
 .middle__section {
   display: flex;
-  flex-direction: column;
-  margin-top: 216px;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 6px;
+  margin-bottom: 10rem;
 }
 .middle__section .middle1__container img {
   width: 380px;
   margin: 0;
+  padding-inline: 10px;
 }
 .middle__section .middle2__container img {
   width: 380px;
   margin: 0;
+  padding-inline: 10px;
 }
 .middle__section .middle3__container img {
-  width: 380px;
+  width: 280px;
   margin: 0;
+  padding-inline: 10px;
 }
 
 a {
@@ -96,6 +101,10 @@ p {
 
 .art__pic {
   display: flex;
+  justify-content: center;
+}
+.art__pic img {
+  text-align: center;
 }
 
 span {
@@ -348,9 +357,11 @@ button:hover {
 }
 
 .card__text {
+  display: flex;
   padding: 1.5rem;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .card__title {
@@ -364,6 +375,7 @@ button:hover {
 .card__detail {
   font-size: 0.875rem;
   line-height: 1.5;
+  text-align: left;
 }
 
 .art__pic {
