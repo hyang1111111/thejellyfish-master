@@ -120,6 +120,7 @@ button {
   padding-block: 2px;
   border-radius: 30px;
   margin-block: 24px;
+  margin-bottom: 60px;
 }
 button p {
   font-size: 20px;
