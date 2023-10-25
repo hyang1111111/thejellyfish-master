@@ -508,12 +508,28 @@ img {
 .text_Ad_section {
   position: sticky;
   z-index: 0;
-  top: 0rem;
+  top: 2rem;
+  margin-top: 32px;
   .text_Ad_container {
     text-align: right;
+    width: 180px;
     img {
       width: 100%;
       height: auto;
     }
+  }
+}
+
+.modal {
+  position: relative;
+}
+.modal_section {
+  text-align: right;
+  width: 340px;
+  padding: 8px;
+  margin-top: 36px;
+  margin-left: -140px;
+  img {
+    width: 100%;
   }
 }
