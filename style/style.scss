@@ -17,6 +17,8 @@
   margin: 0%;
   padding: 0%;
   background-color: #fffffe;
+  margin: auto;
+  text-align: center;
 }
 
 body {
@@ -27,6 +29,7 @@ body {
 
 .root {
   background-color: hsla(0, 0%, 5%);
+  width: 1080px;
 }
 
 .topad__container {
@@ -117,7 +120,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 4px;
+  gap: 10px;
   position: sticky;
   height: fit-content;
   .middle1__container {
@@ -134,10 +137,20 @@ body {
   }
   .middle3__container {
     text-align: center;
+    position: sticky;
     img {
-      width: 240px;
+      width: 280px;
       margin: 0;
     }
+  }
+}
+
+.x_button {
+  width: 280px;
+  height: auto;
+  margin-inline: 4px;
+  img {
+    width: 280px;
   }
 }
 
@@ -315,9 +328,10 @@ button:hover {
 }
 
 .main {
-  margin-block: 60px;
+  width: 1080px;
+  text-align: center;
   .main__container {
-    max-width: 87.5rem;
+    width: 1080px;
     margin-inline: auto;
     padding-inline: 1px;
     padding-block: 1px;
@@ -344,7 +358,7 @@ button:hover {
   .title {
     font-size: 48px;
     font-weight: 700;
-    padding-block: 24px;
+    padding-block: 16px;
     padding-bottom: 30px;
   }
 
@@ -476,8 +490,12 @@ img {
 
 .video__container {
   display: flex;
-  margin: auto;
+  width: 1080px;
+  height: auto;
   justify-content: center;
+  video {
+    width: 1080px;
+  }
 }
 
 .footer__container {
@@ -491,7 +509,6 @@ img {
   position: sticky;
   z-index: 0;
   top: 0rem;
-  width: 180px;
   .text_Ad_container {
     text-align: right;
     img {
